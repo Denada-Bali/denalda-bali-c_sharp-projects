@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F8FC28E-3EA0-4467-AE75-F7C9AA720147}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Final_Project_C_Sharp___UNYT</RootNamespace>
+    <AssemblyName>Final Project C-Sharp - UNYT</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.1.9, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.9\lib\net40\Guna.UI2.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SQLite, Version=1.0.114.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.114.0\lib\net451\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CourseClass.cs" />
+    <Compile Include="CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBconnect.cs" />
+    <Compile Include="DVGPrinter.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCourse.Designer.cs">
+      <DependentUpon>ManageCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageStudent.Designer.cs">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenageScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenageScore.Designer.cs">
+      <DependentUpon>MenageScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Print.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Print.Designer.cs">
+      <DependentUpon>Print.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintCourse.Designer.cs">
+      <DependentUpon>PrintCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrintScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintScore.Designer.cs">
+      <DependentUpon>PrintScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Score.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score.Designer.cs">
+      <DependentUpon>Score.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScoreClass.cs" />
+    <Compile Include="SplashScrean.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScrean.Designer.cs">
+      <DependentUpon>SplashScrean.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentClass.cs" />
+    <EmbeddedResource Include="CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCourse.resx">
+      <DependentUpon>ManageCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageStudent.resx">
+      <DependentUpon>ManageStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenageScore.resx">
+      <DependentUpon>MenageScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Print.resx">
+      <DependentUpon>Print.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintCourse.resx">
+      <DependentUpon>PrintCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintScore.resx">
+      <DependentUpon>PrintScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score.resx">
+      <DependentUpon>Score.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScrean.resx">
+      <DependentUpon>SplashScrean.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESC-Logo-Stacked-Orange-1-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\637480204974630000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unyt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unyt.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unyt_.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\student.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_unyt_20op.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90139652_2717574561644083_7831294241966915584_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empire_1502.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_unyt_20op1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_yatay-01 %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Universiteti_i_New_York-ut_Tiranë.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_yatay-01 %285%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sky1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_unyt_20op2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19629052-fish-eye-view-of-singapore-city-skyline-.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1tyux6-3de723bb-1688-417b-bc53-fccad0decfd2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-photo-2422588.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\609aafd56742982d26765f49599e78ed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo-japan-circa-2015-downtown-260nw-1961539786.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tokyo-japan-circa-2015-downtown-260nw-19615397861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91wCtlkHt5L._SL1500_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91wCtlkHt5L._SL1500_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91wCtlkHt5L._SL1500_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91wCtlkHt5L._SL1500_ %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91wCtlkHt5L._SL1500__3_34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91wCtlkHt5L._SL1500__3_341.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sk_930x607.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sk.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1603183200426.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1603183200426_930x607.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16031832004261.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture1_930x607.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GettyImages-1183672865.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_309902495.0.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdobeStock_309902495.01.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Universiteti_i_New_York-ut_Tiranë.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture_1_912x466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic21.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e9896186f55021eeb4a5f39fea811124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e9896186f55021eeb4a5f39fea811124_912x466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capture_912x466.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\309-3093004_background-for-graduation-tarpaulin-png-download-transparent-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\309-3093004_background-for-graduation-tarpaulin-png-download-transparent-png_912x466.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.114.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.114.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.114.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.114.0\build\net451\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
