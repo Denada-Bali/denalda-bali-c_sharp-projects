@@ -1,0 +1,6 @@
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Distance_Between_Two_Points\Distance_Between_Two_Points\bin\Debug\Distance_Between_Two_Points.exe.config
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Distance_Between_Two_Points\Distance_Between_Two_Points\bin\Debug\Distance_Between_Two_Points.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Distance_Between_Two_Points\Distance_Between_Two_Points\bin\Debug\Distance_Between_Two_Points.pdb
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Distance_Between_Two_Points\Distance_Between_Two_Points\obj\Debug\Distance_Between_Two_Points.csprojResolveAssemblyReference.cache
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Distance_Between_Two_Points\Distance_Between_Two_Points\obj\Debug\Distance_Between_Two_Points.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Distance_Between_Two_Points\Distance_Between_Two_Points\obj\Debug\Distance_Between_Two_Points.pdb
