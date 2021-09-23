@@ -1,0 +1,6 @@
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Parking_Garage_Charge\Parking_Garage_Charge\bin\Debug\Parking_Garage_Charge.exe.config
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Parking_Garage_Charge\Parking_Garage_Charge\bin\Debug\Parking_Garage_Charge.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Parking_Garage_Charge\Parking_Garage_Charge\bin\Debug\Parking_Garage_Charge.pdb
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Parking_Garage_Charge\Parking_Garage_Charge\obj\Debug\Parking_Garage_Charge.csprojResolveAssemblyReference.cache
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Parking_Garage_Charge\Parking_Garage_Charge\obj\Debug\Parking_Garage_Charge.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Parking_Garage_Charge\Parking_Garage_Charge\obj\Debug\Parking_Garage_Charge.pdb
