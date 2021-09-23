@@ -1,0 +1,6 @@
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Mid-Term\Mid-Term\bin\Debug\Mid-Term.exe.config
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Mid-Term\Mid-Term\bin\Debug\Mid-Term.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Mid-Term\Mid-Term\bin\Debug\Mid-Term.pdb
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Mid-Term\Mid-Term\obj\Debug\Mid-Term.csprojResolveAssemblyReference.cache
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Mid-Term\Mid-Term\obj\Debug\Mid-Term.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Mid-Term\Mid-Term\obj\Debug\Mid-Term.pdb
