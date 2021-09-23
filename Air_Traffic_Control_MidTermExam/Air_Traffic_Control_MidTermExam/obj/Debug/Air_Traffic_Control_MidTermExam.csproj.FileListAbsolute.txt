@@ -1,0 +1,6 @@
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Air_Traffic_Control_MidTermExam\Air_Traffic_Control_MidTermExam\bin\Debug\Air_Traffic_Control_MidTermExam.exe.config
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Air_Traffic_Control_MidTermExam\Air_Traffic_Control_MidTermExam\bin\Debug\Air_Traffic_Control_MidTermExam.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Air_Traffic_Control_MidTermExam\Air_Traffic_Control_MidTermExam\bin\Debug\Air_Traffic_Control_MidTermExam.pdb
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Air_Traffic_Control_MidTermExam\Air_Traffic_Control_MidTermExam\obj\Debug\Air_Traffic_Control_MidTermExam.csprojResolveAssemblyReference.cache
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Air_Traffic_Control_MidTermExam\Air_Traffic_Control_MidTermExam\obj\Debug\Air_Traffic_Control_MidTermExam.exe
+c:\users\gjejevetepc\documents\visual studio 2015\Projects\Air_Traffic_Control_MidTermExam\Air_Traffic_Control_MidTermExam\obj\Debug\Air_Traffic_Control_MidTermExam.pdb
