@@ -1,9 +1,0 @@
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\bin\Debug\CallDataRecords.exe.config
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\bin\Debug\CallDataRecords.exe
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\bin\Debug\CallDataRecords.pdb
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\obj\Debug\CallDataRecords.csprojResolveAssemblyReference.cache
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\obj\Debug\CallDataRecords.Properties.Resources.resources
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\obj\Debug\CallDataRecords.csproj.GenerateResource.Cache
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\obj\Debug\CallDataRecords.exe
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\obj\Debug\CallDataRecords.pdb
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\CallDataRecords\CallDataRecords\obj\Debug\CallDataRecords.CallDataRec.resources
