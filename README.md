@@ -36,7 +36,7 @@ At the category Score, the three subcategories of it are shown in the form of a 
 In the category list, are also included two other categories: Dashboard and Exit. The function of Dashboard is to converse the program in its initial form. Exit helps the user to exit the program and return to login interface to log in again.
 
 
-# App Splash Screen 
+# Splash Screen 
 
 ![image](https://user-images.githubusercontent.com/86987951/154170376-baf79e62-f828-4976-a933-b5024781929e.png)
 
