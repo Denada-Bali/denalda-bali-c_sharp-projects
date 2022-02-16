@@ -1,5 +1,0 @@
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\Multiply_two_matrices\Multiply_two_matrices\bin\Debug\Multiply_two_matrices.exe.config
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\Multiply_two_matrices\Multiply_two_matrices\bin\Debug\Multiply_two_matrices.exe
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\Multiply_two_matrices\Multiply_two_matrices\bin\Debug\Multiply_two_matrices.pdb
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\Multiply_two_matrices\Multiply_two_matrices\obj\Debug\Multiply_two_matrices.exe
-c:\users\gjejevetepc\documents\visual studio 2015\Projects\Multiply_two_matrices\Multiply_two_matrices\obj\Debug\Multiply_two_matrices.pdb
