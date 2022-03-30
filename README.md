@@ -87,4 +87,35 @@ In the category list, are also included two other categories: Dashboard and Exit
 
 ![image](https://user-images.githubusercontent.com/86987951/154173303-0038b5b9-06c0-4156-908e-69bb2d3a5bee.png)
 
+# Database Structure
 
+Database of the management system for the university. 
+It includes the Student table, the Course table, and the Score table. 
+
+![image](https://user-images.githubusercontent.com/86987951/160895775-a9393a8a-c6f5-470a-b98b-af17b01b2d3b.png)
+
+The Student table  includes all the the students and all the informations related to them, such as first name,  last name, gender,ID, birthday, phone number, address, photo. 
+
+![image](https://user-images.githubusercontent.com/86987951/160894624-ba34d363-7470-451f-9647-e2ea6c3ae08e.png)
+
+The Course table, includes information of the courses such as course Id, course name, course hours, and description of the course. 
+
+![image](https://user-images.githubusercontent.com/86987951/160894825-ff066f51-973d-4c66-bea1-d26c734d11b0.png)
+
+The Score table includes informations of students’ scores such as student ID, course hours, the grade, and the letter grade. 
+
+![image](https://user-images.githubusercontent.com/86987951/160895023-17f210ab-405e-4349-a384-9a917f403eb3.png)
+
+The User’s table contains just the user Id, the username and the password.
+
+![image](https://user-images.githubusercontent.com/86987951/160895243-cc0cec95-be60-465d-a817-bc922597a4b5.png)
+
+# Database table relationships
+
+The User table is independent because it has no dependence to any other table.
+
+The Student table is independent because it doesn’t have any dependency to any other table. 
+
+The Course table is also independent because it is not dependent to the other tables. 
+
+The Score table is dependent to the Student table and the Course table, because it requires the Student Id and the Course name.   
