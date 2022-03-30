@@ -90,6 +90,7 @@ In the category list, are also included two other categories: Dashboard and Exit
 # Database Structure
 
 Database of the management system for the university. 
+
 It includes the Student table, the Course table, and the Score table. 
 
 ![image](https://user-images.githubusercontent.com/86987951/160895775-a9393a8a-c6f5-470a-b98b-af17b01b2d3b.png)
