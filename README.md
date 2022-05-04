@@ -119,3 +119,30 @@ The Student table is independent because it doesn’t have any dependency to any
 The Course table is also independent because it is not dependent to the other tables. 
 
 The Score table is dependent to the Student table and the Course table, because it requires the Student Id and the Course name.   
+
+# Maintenance - New Features 
+
+I decided to add some new features to the project, like the study program. The 3-year program includes (Bologna system) the 4-year program includes (American system).
+Most changes have been made to the student class and the score class also to all forms of student and score , there is also a slight change to the main form (Dashboard).
+
+...and it is understandable that there are changes in the database as well, mainly in the student table.
+
+So let's see below:
+
+# UPDATED!! Dashboard
+
+![image](https://user-images.githubusercontent.com/86987951/166704099-ea22ad67-a6d0-4db6-85ef-530a7c23b7bd.png)
+
+In this form I have added the academic program which calculates how many systems are in the university. Below we look at the calculation of how many students are enrolled in the 4-year system and how many in the 3-year system
+
+# UPDATED!! 
+
+# UPDATED!! 
+
+# UPDATED!! 
+
+# UPDATED!! 
+
+
+
+
