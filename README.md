@@ -1,3 +1,5 @@
+										    			  		Sep 22, 2021
+
 # Final Project C-Sharp - UNYT
 
 In this project is implemented a management system program of our university, University of New York Tirana. The program includes three main categories in the menu, which are: 
@@ -109,6 +111,8 @@ The Score table includes informations of students’ scores such as student ID, 
 The User’s table contains just the user Id, the username and the password.
 
 ![image](https://user-images.githubusercontent.com/86987951/160895243-cc0cec95-be60-465d-a817-bc922597a4b5.png)
+
+										    			  		May 4, 2022
 
 # Database table relationships
 
