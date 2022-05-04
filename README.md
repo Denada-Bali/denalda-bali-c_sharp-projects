@@ -133,7 +133,7 @@ So let's see below:
 
 ![image](https://user-images.githubusercontent.com/86987951/166704099-ea22ad67-a6d0-4db6-85ef-530a7c23b7bd.png)
 
-In this form I have added the academic program which calculates how many systems are in the university. Below we look at the calculation of how many students are enrolled in the 4-year system and how many in the 3-year system
+In this form I have added the academic program which calculates how many systems are in the university. Below, we look at the calculation of how many students are enrolled in the 4-year system and how many in the 3-year system
 
 # UPDATED!!  Registration
 
