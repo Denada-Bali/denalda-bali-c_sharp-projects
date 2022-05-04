@@ -120,7 +120,7 @@ The Course table is also independent because it is not dependent to the other ta
 
 The Score table is dependent to the Student table and the Course table, because it requires the Student Id and the Course name.   
 
-#                                                            Maintenance - New Features 
+# Maintenance - New Features 
 
 I decided to add some new features to the project, like the study program. The 3-year program includes (Bologna system) the 4-year program includes (American system).
 Most changes have been made to the student class and the score class also to all forms of student and score , there is also a slight change to the main form (Dashboard).
@@ -159,6 +159,18 @@ Thus, the program calculates the grade in letters for both systems automatically
 
 # UPDATED!! Manage Score
 
+![image](https://user-images.githubusercontent.com/86987951/166712254-d0c3026f-b23b-4a0a-9b4e-08dc67a229a9.png)
 
+The same goes for the manage score form, if the admin wants to update something the calculation is done through the program.
 
+# UPDATED!! Print Score
 
+![image](https://user-images.githubusercontent.com/86987951/166713194-e9c184ef-8511-45a5-9915-e1be4d2c6146.png)
+
+Here I made that the program in which the student is enrolled appear in gridview and the admin can search with it. 
+
+# UPDATED!! Database Structure
+
+![image](https://user-images.githubusercontent.com/86987951/166714994-79e15670-4ecf-4b8b-b81b-2b5d96281ca0.png)
+
+The changes I made to the database are only in the student table where I added a column to the academic program.
