@@ -120,7 +120,7 @@ The Course table is also independent because it is not dependent to the other ta
 
 The Score table is dependent to the Student table and the Course table, because it requires the Student Id and the Course name.   
 
-# Maintenance - New Features 
+#                                                            Maintenance - New Features 
 
 I decided to add some new features to the project, like the study program. The 3-year program includes (Bologna system) the 4-year program includes (American system).
 Most changes have been made to the student class and the score class also to all forms of student and score , there is also a slight change to the main form (Dashboard).
@@ -135,13 +135,29 @@ So let's see below:
 
 In this form I have added the academic program which calculates how many systems are in the university. Below we look at the calculation of how many students are enrolled in the 4-year system and how many in the 3-year system
 
-# UPDATED!! 
+# UPDATED!!  Registration
 
-# UPDATED!! 
+![image](https://user-images.githubusercontent.com/86987951/166705374-4958c655-4aa2-4fa4-9242-eea638be0073.png)
 
-# UPDATED!! 
+In the registration form I have added two radio buttons where the admin can choose the system desired by the student.
 
-# UPDATED!! 
+# UPDATED!! Manage Students 
+
+![image](https://user-images.githubusercontent.com/86987951/166706580-277ba185-b4d0-4805-9434-d6482135d885.png)
+
+The same thing in the manage register form, if the student wants to change the system or there was an error in the choice in this form we can update it.
+
+# UPDATED!! Score - Show Student 
+
+![image](https://user-images.githubusercontent.com/86987951/166707218-de467462-5bd1-442a-abc2-a9577366328a.png)
+
+As we can see the change in this form is not noticeable, or more precisely we can say that a textBox is missing.
+
+To be clear, this time I chose to calculate the grade in letters automatically because this would be more practical for the admin.
+
+Thus, the program calculates the grade in letters for both systems automatically (note that systems have different calculations from each other)
+
+# UPDATED!! Manage Score
 
 
 
