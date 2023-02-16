@@ -1,5 +1,5 @@
 # Use the official Microsoft .NET Core runtime as a parent image
-//FROM mcr.microsoft.com/dotnet/sdk:5.0
+#FROM mcr.microsoft.com/dotnet/sdk:5.0
 FROM mcr.microsoft.com/dotnet/sdk:6.0 As build-env
 
 # Set the working directory in the container to /app
@@ -23,7 +23,7 @@ EXPOSE 5000
 # Build runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
-COPY --from=bild-env /app/out .
+COPY --from=build-env /app/out .
 
 # Start the web application when the container starts
 ENTRYPOINT ["dotnet", "run"]
